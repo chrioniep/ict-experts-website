@@ -19,6 +19,24 @@ const Checkout = () => {
             </div>
           </div>
 
+          <p className="mt-8 text-lg font-medium">Official reseller details</p>
+          <form className="mt-5 grid gap-6 rounded-lg border-2 border-gray-300">
+            <div className="flex flex-col rounded-lg bg-white sm:flex-row">
+            <div className="flex w-full flex-col px-4 py-4">
+                <span className="font-semibold text-left">HIGH TECHNOLOGY SERVICES SARL</span>
+                <span className="float-right text-gray-600 text-left">
+                  Limete, Kinshasa
+                </span>
+                
+              </div>
+              <img
+                className="m-2 h-20 w-60 rounded-md object-cover object-center"
+                src="/logo_hts.png"
+                alt=""
+              />
+            </div>
+          </form>
+
           <p className="mt-8 text-lg font-medium">Payment information</p>
           <form className="mt-5 grid gap-6">
             <div className="relative">
