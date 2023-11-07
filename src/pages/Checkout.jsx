@@ -42,10 +42,11 @@ const Checkout = () => {
                 <div className="ml-5">
                   <span className="mt-2 font-semibold">Card</span>
                   <p className="text-slate-500 text-sm leading-6">
-                    Joel mbiye visa ****2370 expire 9/25
+                    
+                    Joel Mbiye<br/>visa ****2370<br/>Expires 9/25
                   </p>
                   <p className="text-blue-500 underline">
-                    change payment method
+                    Change payment method
                   </p>
                 </div>
               </label>
@@ -82,8 +83,17 @@ const Checkout = () => {
                   <span className="float-right text-gray-400">
                     UC Manager-12.x Enhanced Single User License
                   </span>
-                  <p className="text-lg font-bold">$138.99</p>
+                  <p className="text-lg font-bold">30 x $114.99</p>
                 </div>
+              </div>
+              <hr/>
+              <div className="flex flex-col rounded-lg bg-white sm:flex-row">
+                <span className="flex w-full flex-col px-4">
+                  <p className="text-lg font-bold text-left">Billed (USD)</p>
+                </span>
+                <span className="flex w-full flex-col px-4 ">
+                  <p className="text-lg font-bold text-right">$3,449.70</p>
+                </span>
               </div>
             </div>
           </div>
